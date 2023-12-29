@@ -112,7 +112,7 @@ def main():
             user_name = input("Enter name: ")
             user_address = input("Enter address: ")
             user_favorite_number = int(input("Enter favorite number: "))
-            user_favorite_color = input("Enter favorite color: ")
+            user_favorite_color  = input("Enter favorite color: ")
             user = User(name=user_name,
                         address=user_address,
                         favorite_color=user_favorite_color,
